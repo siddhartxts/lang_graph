@@ -1,0 +1,29 @@
+[project]
+name = "langgaph-course"
+version = "0.1.0"
+description = "LangGraph agentic RAG"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "beautifulsoup4",
+    "langchain-community",
+    "tiktoken",
+    "langchainhub",
+    "langchain",
+    "langgraph",
+    "tavily-python",
+    "langchain-openai",
+    "python-dotenv",
+    "black",
+    "isort",
+    "pytest",
+    "langchain-chroma",
+    "langchain-tavily>=0.1.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["graph"]
