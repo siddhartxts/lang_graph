@@ -519,7 +519,7 @@ wheels = [
 ]
 
 [[package]]
-name = "langgaph-course"
+name = "search-agent"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
