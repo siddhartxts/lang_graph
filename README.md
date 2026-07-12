@@ -1,14 +1,8 @@
 # LangGraph🦜🕸️ – Develop LLM-Powered AI Agents
 
 
-![Logo](https://github.com/emarco177/langgraph-course/blob/main/banner.png)
 
-[![Udemy](https://img.shields.io/badge/Udemy-Course-EC5252?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/langgraph/?couponCode=APRIL-2026) 
-[![Rating](https://img.shields.io/badge/Rating-4.7/5-brightgreen?style=for-the-badge)](https://www.udemy.com/course/langgraph/) 
-[![Students](https://img.shields.io/badge/Students-13K+-blue?style=for-the-badge)](https://www.udemy.com/course/langgraph/?couponCode=APRIL-2026)
-[![Twitter](https://img.shields.io/twitter/follow/EdenEmarco177?label=Follow&style=social)](https://twitter.com/EdenEmarco177)
-
-> **Build production-grade AI agents—fast.** This repository is the hands-on companion to my Udemy bestseller. Every branch is a *project*, every commit is a *lesson*. Clone it, code along, and ship your own LangGraph agents.
+> **Build production-grade AI agents—fast.** Every branch is a *project*, every commit is a *lesson*. Clone it, code along, and ship your own LangGraph agents.
 
 ---
 
@@ -25,11 +19,11 @@
 
 | Branch | Project Snapshot | Live Code |
 |--------|------------------|-----------|
-| **project/agentic-rag** | Advanced RAG pipeline with grading, web-search & adaptive routing | [link](https://github.com/emarco177/langgaph-course/tree/project/agentic-rag) |
-| **project/ReAct-agent** | Classic ReAct (Reason + Act) agent in LangGraph | [link](https://github.com/emarco177/langgaph-course/tree/project/ReAct-agent) |
-| **project/reflection** | Minimal reflection demo – the *why* before the *wow* | [link](https://github.com/emarco177/langgaph-course/tree/project/reflection) |
-| **project/reflection-agent** | Full reflection agent that revises its own output | [link](https://github.com/emarco177/langgaph-course/tree/project/reflection-agent) |
-| **project/reflexion-agent** | Reflexion agent that learns from past runs | [link](https://github.com/emarco177/langgaph-course/tree/project/reflexion-agent) |
+| **project/agentic-rag** | Advanced RAG pipeline with grading, web-search & adaptive routing | [link](https://github.com/siddhartxts/lang_graph/tree/project/agentic-rag) |
+| **project/ReAct-agent** | Classic ReAct (Reason + Act) agent in LangGraph | [link](https://github.com/siddhartxts/lang_graph/tree/project/ReAct-agent) |
+| **project/reflection** | Minimal reflection demo – the *why* before the *wow* | [link](https://github.com/siddhartxts/lang_graph/tree/project/reflection) |
+| **project/reflection-agent** | Full reflection agent that revises its own output | [link](https://github.com/siddhartxts/lang_graph/tree/project/reflection-agent) |
+| **project/reflexion-agent** | Reflexion agent that learns from past runs | [link](https://github.com/siddhartxts/lang_graph/tree/project/reflexion-agent) |
 
 > ✨ **Tip:** Checkout a branch, then use `git log --oneline` to watch the lessons unfold commit-by-commit.
 
@@ -59,8 +53,8 @@ Feel free to cherry-pick commits or rewind with `git checkout <hash>` to experim
 
 ```bash
 # 1. Clone & enter
-$ git clone https://github.com/emarco177/langgaph-course.git
-$ cd langgaph-course
+$ git clone https://github.com/siddhartxts/lang_graph.git
+$ cd lang_graph
 
 # 2. Choose a project branch
 $ git checkout project/agentic-rag  # for example
@@ -81,25 +75,6 @@ LANGCHAIN_API_KEY=...       # optional – for LangSmith tracing
 LANGCHAIN_TRACING_V2=true   # optional
 PYTHONPATH=$(pwd)
 ```
-
----
-
-## 💼  Level-Up Your Career: LangJobs🦜
-
-Looking for your next role building Agents, RAG apps, or LangGraph integrations? Check the **[LangJobs.dev](https://langjobs.dev/)** board—built for the 150 000-strong AI-Engineering community.  
-Post a job or explore openings that use the exact tech stack you're mastering here.
-
----
-
-## 🤝  Join the Community
-
-- 💬  **Discord** – Private server for Q&A and project feedback  
-- 🐙  **GitHub Issues** – Bugs, ideas, PRs welcome!  
-- 🛠️  **Bonus Repos** – Extra templates & utilities for course alumni
-
-> All future updates are free. Your one-time enrollment grows with the ecosystem.
-
-Enjoy the course & happy coding! 🎉
 
 ---
 
