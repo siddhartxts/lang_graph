@@ -8,8 +8,7 @@ See Original YouTube video:[Advance RAG control flow with Mistral and LangChain]
 
 of [Sophia Young](https://x.com/sophiamyang) from Mistral & [Lance Martin](https://x.com/RLanceMartin) from LangChain
 
-![Logo](https://github.com/emarco177/langgraph-course/blob/project/agentic-rag/static/Langgraph%20Adaptive%20Rag.png)
-[![udemy](https://img.shields.io/badge/LangGraph🦜🔗%20Udemy%20Course-%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langgraph/?couponCode=APRIL-2025)
+![Logo](static/Langgraph%20Adaptive%20Rag.png)
 
 
 ## Features
@@ -34,18 +33,18 @@ This repository is organized as a series of commits, each representing a video l
 
 | Lesson # | Commit | Description | Key Components |
 |----------|--------|-------------|----------------|
-| 1 | [**Start Here**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/5b2b18e) | Introduction to the course and Agentic RAG concepts | Overview of the project; Introduction to LangGraph and Agentic RAG architecture |
-| 2 | [**Project Structure**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/2693185) | Setting up the project foundation | Initialize project structure; Configure Poetry for dependency management |
-| 3 | [**Ingestion**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/513e3cf) | Setting up the vector database | Create ingestion pipeline; Implement vector store with Chroma and OpenAI embeddings |
-| 4 | [**State**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/03f79ae) | Defining the state management | Create GraphState class; Set up typed dictionaries for state tracking |
-| 5 | [**Retrieve Node**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/c2d71c7) | Implementing the document retrieval | Build retrieve node; Connect retrieval to vector database |
-| 6 | [**Grade Documents Node**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/9107e7a) | Evaluating document relevance | Create document grading functionality; Implement decision logic for document relevance |
-| 7 | [**Web Search with Tavily**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/6d4fdc4) | Adding external search capability | Integrate Tavily search API; Implement fallback for insufficient local knowledge |
-| 8 | [**Generation Node**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/bc57b63) | Creating the answer generation component | Build generate node; Implement context-aware response generation |
-| 9 | [**Graph**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/a450f9b) | Constructing the complete LangGraph workflow | Connect all nodes into workflow; Implement conditional edges for adaptive behavior |
-| 10 | [**Self-RAG**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/5400fb7) | Adding self-evaluation capabilities | Implement hallucination detection; Create feedback loops for answer improvement |
-| 11 | [**Router**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/034e53f) | Smart query routing | Create intelligent routing between retrieval and web search; Optimize entry point for different query types |
-| 12 | [**Formatting**](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag/commit/d9490ca) | Final code formatting and cleanup | Code optimization; Final documentation improvements |
+| 1 | `5b2b18e` **Start Here** | Introduction to the course and Agentic RAG concepts | Overview of the project; Introduction to LangGraph and Agentic RAG architecture |
+| 2 | `2693185` **Project Structure** | Setting up the project foundation | Initialize project structure; Configure Poetry for dependency management |
+| 3 | `513e3cf` **Ingestion** | Setting up the vector database | Create ingestion pipeline; Implement vector store with Chroma and OpenAI embeddings |
+| 4 | `03f79ae` **State** | Defining the state management | Create GraphState class; Set up typed dictionaries for state tracking |
+| 5 | `c2d71c7` **Retrieve Node** | Implementing the document retrieval | Build retrieve node; Connect retrieval to vector database |
+| 6 | `9107e7a` **Grade Documents Node** | Evaluating document relevance | Create document grading functionality; Implement decision logic for document relevance |
+| 7 | `6d4fdc4` **Web Search with Tavily** | Adding external search capability | Integrate Tavily search API; Implement fallback for insufficient local knowledge |
+| 8 | `bc57b63` **Generation Node** | Creating the answer generation component | Build generate node; Implement context-aware response generation |
+| 9 | `a450f9b` **Graph** | Constructing the complete LangGraph workflow | Connect all nodes into workflow; Implement conditional edges for adaptive behavior |
+| 10 | `5400fb7` **Self-RAG** | Adding self-evaluation capabilities | Implement hallucination detection; Create feedback loops for answer improvement |
+| 11 | `034e53f` **Router** | Smart query routing | Create intelligent routing between retrieval and web search; Optimize entry point for different query types |
+| 12 | `d9490ca` **Formatting** | Final code formatting and cleanup | Code optimization; Final documentation improvements |
 
 ## Environment Variables
 
@@ -66,8 +65,8 @@ LANGCHAIN_PROJECT=agentic-rag                  # Optional
 Clone the repository:
 
 ```bash
-git clone https://github.com/emarco177/langgraph-course.git
-cd langgraph-course
+git clone https://github.com/siddhartxts/lang_graph.git
+cd lang_graph
 git checkout project/agentic-rag
 ```
 
@@ -102,13 +101,13 @@ git checkout c2d71c7  # Lesson 5: Retrieve Node
 Clone the project
 
 ```bash
-  git clone https://github.com/emarco177/langgraph-course.git
+  git clone https://github.com/siddhartxts/lang_graph.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd langgraph-course
+  cd lang_graph
 ```
 
 Install dependencies
@@ -134,11 +133,7 @@ To run tests, run the following command
 
 Original LangChain repository: [LangChain Cookbook](https://github.com/mistralai/cookbook/tree/main/third_party/langchain)
 By [Sophia Young](https://x.com/sophiamyang) from Mistral & [Lance Martin](https://x.com/RLanceMartin) from LangChain
-![Logo](https://github.com/emarco177/langgraph-course/blob/project/agentic-rag/static/LangChain-logo.png)
+![Logo](static/LangChain-logo.png)
 
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.udemy.com/course/langgraph/?referralCode=FEA50E8CBA24ECD48212)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eden-marco/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/EdenEmarco177?style=social)](https://twitter.com/EdenEmarco177) 

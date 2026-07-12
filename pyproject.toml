@@ -1,5 +1,5 @@
 [project]
-name = "langgaph-course"
+name = "agentic-rag"
 version = "0.1.0"
 description = "LangGraph agentic RAG"
 readme = "README.md"
