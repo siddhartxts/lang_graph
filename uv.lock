@@ -756,7 +756,7 @@ wheels = [
 ]
 
 [[package]]
-name = "langgaph-course"
+name = "react-agent"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

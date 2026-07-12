@@ -1,5 +1,5 @@
 [project]
-name = "langgaph-course"
+name = "react-agent"
 version = "0.1.0"
 description = "LangGraph ReAct agent with function calling"
 requires-python = ">=3.10"
