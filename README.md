@@ -24,8 +24,6 @@ graph LR;
         classDef last fill:#bfb6fc
 ```
 
-[![udemy](https://img.shields.io/badge/LangGraph🦜🔗%20Udemy%20Course-%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langgraph/?couponCode=APRIL-2025)
-
 ## What You'll Learn
 
 - **ReAct Pattern Implementation**: Build an agent that can reason about tasks and then act on that reasoning
@@ -37,23 +35,23 @@ graph LR;
 
 This repository is organized as a series of commits, each representing a lesson in building the ReAct agent:
 
-1. [**Project Setup**](https://github.com/emarco177/langgaph-course/commit/f9d7eac35b789cf86282e1a188d2889f2a66bc9b): Initial repository structure and environment configuration
+1. **Project Setup** (`f9d7eac`): Initial repository structure and environment configuration
    - Initialize project with main application file and Poetry configuration
    - Add dependencies for LangChain, LangGraph, and dotenv support
 
-2. [**React Implementation**](https://github.com/emarco177/langgaph-course/commit/2415ad2710a112fd735020a2f99f073d0483b905): Building the core agent functionality
+2. **React Implementation** (`2415ad2`): Building the core agent functionality
    - Create react.py for ReAct agent implementation 
    - Add tools and prompt integration
 
-3. [**State Management**](https://github.com/emarco177/langgaph-course/commit/478dd4e52447c4140a97ce899172f1a6c26506f9): Creating state tracking for the agent
+3. **State Management** (`478dd4e`): Creating state tracking for the agent
    - Add AgentState class to state.py
    - Implement state management for agent actions and outcomes
 
-4. [**Agent Nodes**](https://github.com/emarco177/langgaph-course/commit/ef2a0779e97e585bb7bdd5ec43dae1b0a3fddd16): Setting up the graph nodes
+4. **Agent Nodes** (`ef2a077`): Setting up the graph nodes
    - Add nodes.py to implement agent reasoning
    - Create tool execution logic components
 
-5. [**Graph Construction**](https://github.com/emarco177/langgaph-course/commit/b8b115d1ca36887eb1a332491d94a02438b70de6): Building the complete LangGraph workflow
+5. **Graph Construction** (`b8b115d`): Building the complete LangGraph workflow
    - Add graph generation functionality to main.py
    - Update model in react.py for full integration
 
@@ -76,8 +74,9 @@ LANGCHAIN_PROJECT=react agent                  # Optional
 Clone the repository:
 
 ```bash
-git clone https://github.com/emarco177/langgaph-course.git
-cd langgaph-course
+git clone https://github.com/siddhartxts/lang_graph.git
+cd lang_graph
+git checkout project/ReAct-agent
 ```
 
 Install dependencies:
@@ -113,7 +112,3 @@ This project builds upon:
 - [LangChain](https://github.com/langchain-ai/langchain) for LLM interactions
 - [ReAct Pattern](https://arxiv.org/abs/2210.03629) for agent reasoning methodology
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.udemy.com/course/langgraph/?referralCode=FEA50E8CBA24ECD48212)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eden-marco/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/EdenEmarco177?style=social)](https://twitter.com/EdenEmarco177)
