@@ -1,5 +1,5 @@
 [project]
-name = "langgaph-course"
+name = "reflexion-agent"
 version = "0.1.0"
 description = "LangGraph reflexion agent"
 readme = "README.md"

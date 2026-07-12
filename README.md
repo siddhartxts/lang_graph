@@ -26,7 +26,6 @@ graph LR;
         classDef first fill-opacity:0
         classDef last fill:#bfb6fc
 ```
-[![udemy](https://img.shields.io/badge/LangGraph🦜🔗%20Udemy%20Course-%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langgraph/?couponCode=APRIL-2025)
 
 ## Features
 
@@ -65,8 +64,9 @@ LANGCHAIN_PROJECT=reflexion agent               # Optional
 Clone the project:
 
 ```bash
-git clone <repository-url>
-cd reflexion-agent
+git clone https://github.com/siddhartxts/lang_graph.git
+cd lang_graph
+git checkout project/reflexion-agent
 ```
 
 Install dependencies:
@@ -114,35 +114,31 @@ This project builds upon:
 
 This project follows the structure of the "LangGraph Course" lectures, demonstrating key concepts in building a Reflexion Agent:
 
-1. **[Add initial project structure](https://github.com/emarco177/langgaph-course/commit/338cb56)** - Corresponds to **Lecture 22: Project Setup**
+1. **Add initial project structure** (`338cb56`) - Corresponds to **Lecture 22: Project Setup**
    * Set up the foundation with project configuration files (.gitignore, main.py, pyproject.toml, poetry.lock)
    
-2. **[Create chains for AI-powered research functionality](https://github.com/emarco177/langgaph-course/commit/e6dd3fc)** - Corresponds to **Lecture 23: Actor Agent**
+2. **Create chains for AI-powered research functionality** (`e6dd3fc`) - Corresponds to **Lecture 23: Actor Agent**
    * Implemented the first component of our agent architecture - the Actor
    * Added chains.py with prompt templates for generating detailed answers
    * Created schemas.py with Pydantic models for structured data handling
    
-3. **[Enhance chains for answer revision capabilities](https://github.com/emarco177/langgaph-course/commit/8c0b27b)** - Corresponds to **Lecture 24: Revisor Agent**
+3. **Enhance chains for answer revision capabilities** (`8c0b27b`) - Corresponds to **Lecture 24: Revisor Agent**
    * Implemented the second component - the Revisor for self-reflection
    * Added ReviseAnswer class to schemas.py for improved response structure
    * Updated chain prompts to incorporate critique and citation requirements
    
-4. **[Add dependencies and tools for graph nodes](https://github.com/emarco177/langgaph-course/commit/a092b97)** - Preparation for Graph Implementation
+4. **Add dependencies and tools for graph nodes** (`a092b97`) - Preparation for Graph Implementation
    * Integrated search functionality to enhance response accuracy
    * Added required dependencies for the complete graph workflow
    
-5. **[Implement the complete message graph](https://github.com/emarco177/langgaph-course/commit/bb79ec6)** - Corresponds to **Lecture 28: Building our LangGraph Graph**
+5. **Implement the complete message graph** (`bb79ec6`) - Corresponds to **Lecture 28: Building our LangGraph Graph**
    * Connected Actor and Revisor agents in a complete LangGraph workflow
    * Defined graph nodes for drafting, tool execution, and revision
    * Established state management and conditional edge routing for reflection
    
-6. **[Added readme](https://github.com/emarco177/langgaph-course/commit/112b808)** - Documentation of the final project
+6. **Added readme** (`112b808`) - Documentation of the final project
    * Overview of what was built in **Lecture 21: What are we building?**
    * Detailed explanation of the agent architecture and implementation
 
 This progression demonstrates the complete development cycle of a Reflexion Agent using LangGraph, following the course structure from setup to implementation of chains, agents, and finally constructing the complete graph.
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.udemy.com/course/langgraph/?referralCode=FEA50E8CBA24ECD48212)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eden-marco/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/EdenEmarco177?style=social)](https://twitter.com/EdenEmarco177)
